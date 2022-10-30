@@ -1,4 +1,4 @@
-module "vpc-dev" {
+module "vpc-prod" {
   source                           = "../../../modules/vpc"
   aws_region                       = var.aws_region
   cidr_block                       = var.cidr_block
